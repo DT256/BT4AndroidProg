@@ -65,6 +65,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        btnNextBT3 = findViewById(R.id.btnNextBT3);
+        // Xử lý sự kiện khi nhấn nút
+        btnNextBT3.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
+        });
 
     }
 }
